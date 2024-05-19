@@ -1,0 +1,74 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.20.10.3:80
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [18/May/2024 16:44:03] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/May/2024 16:44:03] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/May/2024 16:44:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [18/May/2024 16:44:03] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [18/May/2024 16:44:03] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+ERROR:root:Exception occurred: no such table: user
+INFO:werkzeug:127.0.0.1 - - [18/May/2024 16:44:10] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/May/2024 16:44:12] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/May/2024 16:44:12] "GET /login HTTP/1.1" 200 -
+ERROR:root:Exception occurred: no such table: user
+INFO:werkzeug:127.0.0.1 - - [18/May/2024 16:44:54] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/May/2024 16:44:55] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/May/2024 16:44:55] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.20.10.3:80
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.20.10.3:80
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [18/May/2024 16:48:29] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/May/2024 16:48:29] "GET /login HTTP/1.1" 200 -
+ERROR:root:Exception occurred: no such table: user
+INFO:werkzeug:127.0.0.1 - - [18/May/2024 16:48:54] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.20.10.3:80
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [19/May/2024 19:54:07] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [19/May/2024 19:54:07] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/May/2024 19:54:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.20.10.3:80
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [19/May/2024 20:11:41] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [19/May/2024 20:11:41] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/May/2024 20:12:01] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [19/May/2024 20:12:01] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/May/2024 20:12:11] "GET /edit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/May/2024 20:12:16] "[32mPOST /edit HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [19/May/2024 20:12:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/May/2024 20:12:18] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [19/May/2024 20:12:18] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/May/2024 20:12:31] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [19/May/2024 20:12:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/May/2024 20:12:32] "GET /edit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/May/2024 20:12:38] "[32mPOST /edit HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [19/May/2024 20:12:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/May/2024 20:12:40] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [19/May/2024 20:12:40] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.20.10.3:80
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 175-298-204
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.20.10.3:80
+INFO:werkzeug:[33mPress CTRL+C to quit[0m

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>修改個人資訊</title>
+  </head>
+  <body>
+    <h1>修改個人資訊</h1>
+    <form method="POST">
+      姓名:<br />
+      <input type="text" name="name" value="{{ user['nm'] }}" /><br />
+      生日:<br />
+      <input type="date" name="birthdate" value="{{ user['birth'] }}" /><br />
+      血型:<br />
+      <input type="text" name="bloodtype" value="{{ user['blood'] }}" /><br />
+      手機:<br />
+      <input type="text" name="phone" value="{{ user['phone'] }}" /><br />
+      Email:<br />
+      <input type="email" name="email" value="{{ user['email'] }}" /><br />
+      身份證號:<br />
+      <input type="text" name="userid" value="{{ user['idno'] }}" /><br />
+      密碼:<br />
+      <input
+        type="password"
+        name="password"
+        value="{{ user['pwd'] }}"
+      /><br /><br />
+      <input type="submit" value="送出" />
+    </form>
+    <a href="{{ url_for('logout') }}">登出</a>
+  </body>
+</html>
